@@ -11,5 +11,5 @@ rm -rf ~/Downloads/node-v18.16.1-linux-x64 &&
 echo "\n\n_____________________________ Node V18 Installation success ___________________" &&
 echo "_______________________________ Please reboot your system _______________________" &&
 notify-send "Node v18 installation success" "Please reboot your device now" ||
-echo "\n\n_____________________________Installation failed______________________________" &&
+#echo "\n\n_____________________________Installation failed______________________________" &&
 notify-send "Node v18 installation failed" "Error" 
